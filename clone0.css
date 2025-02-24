@@ -1,0 +1,79 @@
+.container{
+    height:110px;
+    /* background-color: aqua; */
+}
+.logo{
+    width:50%;
+    text-align: center;
+    float:left;
+}
+.content{
+    width:50%;
+    float:right;
+    display:inline-flex;
+    text-align: justify;
+
+}
+.content ul li{
+    /* display:inline-flex; */
+    float:left;
+    margin-top:25px;
+    margin-left: 15px;
+    list-style: none;
+    border-right:1px solid;
+    padding:3.3px;
+    color
+}
+.image-form{
+    height:550px;
+    /* background-color:blue; */
+     display:flex;
+     justify-content: center;
+     width:100%;
+     background-image: url("http://starpublicschool69.com/wp-content/uploads/2014/11/home_languageschool_choose_language_bg.jpg");
+     background-size:cover;
+}
+.image{
+    width:50%;
+    height:500px;
+    /* background-color: aqua;  */
+    float:left;
+    margin:20px;
+}
+.image img{
+    margin:30px;
+    height:420px;
+    text-align: center;
+}
+.form{
+    width:50%;
+    height:500px;
+    /* background-color: beige; */
+    float:right;
+}
+.form h2{
+    color:darkblue;
+    margin: 10px;
+    text-align: center;
+}
+.name{  text-align: center; 
+    margin-top: 13px;
+}
+.name input{
+    padding:15px;
+    font-size: 15px;
+    margin-bottom:15px; 
+    border-radius:10px;
+}
+.button{
+    text-align: center;
+}
+.button a button{padding:15px;
+    font-size: 20px;
+    margin: 10px;
+    font-size:15px;
+    color:white;
+    background-color:red;
+    border-radius:7px;
+}
+
